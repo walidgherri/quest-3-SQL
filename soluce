@@ -1,0 +1,31 @@
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Beauxbatons Academy of Magic', 'France', '550');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Castelobruxo', 'Brazil', '380');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Durmstrang Institute ', 'Norway', '570');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Hogwarts School of Witchcraft and Wizardry', 'United Kingdom', '450');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Ilvermorny School of Witchcraft and Wizardry', 'USA', '300');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Koldovstoretz', 'Russia', '125');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Mahoutokoro School of Magic', 'Japan', '800');
+INSERT INTO `wild_db_quest`.`school` (`name`, `country`, `capacity`) VALUES ('Uagadou School of Magic', 'Uganda', '350');
+
+
+select * from school
+
+UPDATE school
+SET country='Sweeden'
+WHERE id=3;
+
+UPDATE school
+SET capacity=700
+WHERE id=7;
+
+DELETE FROM school
+WHERE name lIKE '%Magic';
+
+
+
+
+'2','Castelobruxo','380','Brazil'
+'3','Durmstrang Institute ','570','Sweeden'
+'4','Hogwarts School of Witchcraft and Wizardry','450','United Kingdom'
+'5','Ilvermorny School of Witchcraft and Wizardry','300','USA'
+'6','Koldovstoretz','125','Russia'
